@@ -1,0 +1,40 @@
+@import '~antd/lib/style/themes/default.less';
+@import '../../utils/utils.less';
+
+.mapChart {
+  padding-top: 24px;
+  height: 457px;
+  text-align: center;
+  .mapcopyrightLayer {
+    font-size: 12px !important;
+    position: absolute;
+    bottom: 2px;
+    z-index: 999;
+    left: 3px;
+    padding: 2px;
+    background: rgba(51, 51, 51, 0.94);
+    color: #eee;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+  }
+  .maprighttoplaye {
+    font-size: 12px !important;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 3px;
+    background: rgba(51, 51, 51, 0.94);
+    color: #eee;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+  }
+}
+.pieCard :global(.pie-stat) {
+  font-size: 24px !important;
+}
+
+@media screen and (max-width: @screen-lg) {
+  .mapChart {
+    height: auto;
+  }
+}
