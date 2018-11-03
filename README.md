@@ -1,4 +1,7 @@
 # ReactAdmin +Golang 
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/Liberxue/ReactAdmin.svg)](https://greenkeeper.io/)
+
 English | [简体中文](./README.zh-CN.md)
 
 # MQ Console
